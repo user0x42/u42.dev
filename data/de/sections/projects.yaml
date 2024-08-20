@@ -32,7 +32,7 @@ projects:
   logo: /images/sections/projects/paintdrop.svg
   role: Owner/Designer
   timeline: "2023 - Heute"
-  repo: https://github.com/Die-Irrenanstalt/DIADZ-Themes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  repo: https://github.com/Die-Irrenanstalt/themes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://diadz.de"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: DIADZ Themes ist ein weiteres Projekt, bei dem wir Themen für von uns verwendete Apps und Websites erstellen, damit alles besser zu unserem eigenen Design passt.
   tags: ["DIADZ", "hobby", "themes"]
