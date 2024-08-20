@@ -1,0 +1,37 @@
+# Copyright Notice
+copyright: © 2024 [user0x42](https://u42.dev)
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "Das Projekt selbst ist unter der [**MIT-Lizenz**](https://github.com/user0x42/u42.dev/blob/main/LICENSE) lizenziert und die Bilder und Logos von [**DIADZ**](https://diadz.de) sind unter der [**CC BY-NC 4.0**](https://creativecommons.org/licenses/by-nc/4.0/) Lizenz lizenziert."
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Persönliche Seite von user0x42
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+ - name: DIADZ
+   url: https://diadz.de
+   hideFromNavbar: false
+   showOnFooter: true
+
+ - name: Public Analytics
+   url: https://u42.goatcounter.com/?hl-period=week
+   hideFromNavbar: true
+   showOnFooter: true
+
+#- name: Docs
+#  url: https://toha-guides.netlify.app/posts/
+  # specify whether to hide the menu item from top navbar or not.
+#  hideFromNavbar: false
+  # specify whether to show the menu item in footer or not.
+  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+#  showOnFooter: false
+
+# Specify OpenGraph Headers
+openGraph:
+  title: user0x42
+  type: website
+  description: Persönliche Seite von user0x42
+  image: images/site/logo.png
+  url: https://u42.dev

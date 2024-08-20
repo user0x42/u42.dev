@@ -1,0 +1,108 @@
+/* Animations */
+#home > div.container.content.text-center > h1 {
+    animation: text-flicker-in-glow 2s 1 ease forwards;
+}
+
+#top-navbar > div > a {
+    animation: slide-in-blurred-left 1s 1 cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+#home > div.container.content.text-center > img {
+    animation: slide-in-elliptic-top-fwd 1s 1 cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+#top-nav-items {
+    animation: bounce-in-top 1s 1 0.1s ease backwards;
+}
+
+
+/* Animations End */
+
+.home{
+  .background{
+    filter: none;
+  }
+}
+
+.home img {
+  background-color: transparent !important;
+  width: 200px !important;
+  height: 200px !important;
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+  /* Works on Chrome, Edge, and Safari */
+
+  /* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #c7c7c7; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #225F78; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4e7e93; 
+  }
+
+
+
+
+/* Icons */
+.simple-icons--codeberg-about {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M11.955.49A12 12 0 0 0 0 12.49a12 12 0 0 0 1.832 6.373L11.838 5.928a.187.14 0 0 1 .324 0l10.006 12.935A12 12 0 0 0 24 12.49a12 12 0 0 0-12-12a12 12 0 0 0-.045 0m.375 6.467l4.416 16.553a12 12 0 0 0 5.137-4.213z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.simple-icons--pixelfed {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12s-5.373 12-12 12m-.953-9.38h2.202c2.074 0 3.755-1.637 3.755-3.656S15.323 7.31 13.249 7.31h-3.177c-1.197 0-2.167.944-2.167 2.109v8.208z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+/* Icons End */
+
+.helloanx {
+  width: 150px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.stare {
+  width: 150px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 2%;
+}

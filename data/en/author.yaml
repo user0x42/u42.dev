@@ -1,0 +1,17 @@
+# some information about you
+name: "user0x42"
+nickname: "user0x42"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: ""
+image: "images/site/logo-clear.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  github: user0x42
+
+# some summary about what you do
+summary:
+  - I am a Sysadmin
+  - I love servers
+  - I love self-hosting
+  - I love docker
+  - I love to work with some fun projects
