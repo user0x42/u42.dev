@@ -152,7 +152,7 @@ params:
         #   id: <your counterdev id>
         # # GoatCounter
          goatCounter:
-          code: https://u42.goatcounter.com/count
+          code: u42
          # Matomo / Piwik
         # matomo:
         #   instance: matomo.example.com
